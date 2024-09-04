@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -27,21 +26,28 @@
       <div class="screen-backdrop"></div>
       <div class="home-screen screen">
         <div class="head-wrapper">
-          <div class="menu-btn">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-6 h-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
-              />
-            </svg>
+          <div class="upperMenuContainer">
+            <div class="menu-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12"
+                />
+              </svg>
+            </div>
+            <!-- Contribution by prakshark -->
+            <div class="darkModeBtn">
+              <button onclick="toggleDarkMode()" class="darkBtn">Dark Mode</button>
+            </div>
+            <!-- Contribution by prakshark -->
           </div>
           <div class="welcome">
             <div class="content">
@@ -206,6 +212,7 @@
       </div>
     </div>
 
+    <script src="darkMode.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
