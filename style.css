@@ -71,6 +71,18 @@ body {
 
 .head-wrapper {
     padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperMenuContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.darkModeBtn{
+    position: absolute;
+    right: 30px;
 }
 
 .menu-btn {
@@ -453,4 +465,22 @@ button.add-btn {
 .black-backdrop.active {
     opacity: 1;
     visibility: visible;
+}
+
+
+
+
+/* Contribution by prakshark */
+
+.darkModeClass{
+    background: #2e2e2e;
+    color: deepskyblue;
+}
+.darkModeClassShadow{
+    box-shadow: deepskyblue 2px 2px 2px 2px;
+}
+.darkBtn{
+    padding: 7px;
+    border-radius: 7px;
+    border: 0px;
 }
